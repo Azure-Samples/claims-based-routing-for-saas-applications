@@ -1,0 +1,49 @@
+{
+  "initConfig": {
+    "resourceGroupName": "f1",
+    "subscriptionId": "8b67eac7-bf4f-42d7-9342-4da1ff179460",
+    "location": "westeurope",
+    "tenantId": "e4df7223-e170-4ae0-93ad-076d478cbe95"
+  },
+  "Proxy": {
+    "Aad": {
+      "ClientId": "d0b7d329-2c72-4970-acab-35c612af55b1"
+    },
+    "Endpoint": "proxy-73hq.azurewebsites.net"
+  },
+  "roles": {
+    "Contributor": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+    "App Configuration Data Owner": "5ae67dd6-50cb-40e7-96ff-dc2bfa4b606b",
+    "App Configuration Data Reader": "516239f1-63e1-4d78-a4de-a74fb236a071",
+    "Key Vault Secrets User": "4633458b-17de-408a-b874-0445c86b69e6",
+    "Key Vault Reader": "21090545-7ca7-4776-b22c-e363652d74d2",
+    "Azure Service Bus Data Receiver": "4f6d3b9b-027b-4f4c-9142-0e5a2a2247e0"
+  },
+  "ConnectionStrings": {
+    "ApplicationInsights": "InstrumentationKey=fb1bcaa4-564a-4327-a58c-c7923c711645;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/",
+    "ServiceBus": "Endpoint=sb://proxyservicebus-73hq.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=JrLLJl3M22fMhNKIrmQEMQK4docUUrENs+ASbEKm+WE=",
+    "AppConfiguration": "Endpoint=https://proxyconfiguration-73hq.azconfig.io;Id=ArLp;Secret=z4IndKsXpd8uvEtgx0ztMuVB+LUzOr8dpJ4AauyY9Do="
+  },
+  "API": {
+    "Endpoint": "proxy-weather-73hq.azurewebsites.net"
+  },
+  "ControlPlane": {
+    "ManagementServiceEndpoint": {
+      "Endpoint": "managementservice-73hq.azurewebsites.net"
+    }
+  },
+  "AppConfiguration": {
+    "ReadConnectionString": "Endpoint=https://proxyconfiguration-73hq.azconfig.io;Id=ArLp;Secret=z4IndKsXpd8uvEtgx0ztMuVB+LUzOr8dpJ4AauyY9Do=",
+    "ReadWriteConnectionString": "Endpoint=https://proxyconfiguration-73hq.azconfig.io;Id=7abo;Secret=4xzzMyD8x/PDkgRahS2NOb9ceB6TizNxPNwf8SzDmO4=",
+    "Name": "ProxyConfiguration-73hq",
+    "Uri": "https://proxyconfiguration-73hq.azconfig.io"
+  },
+  "Development": {
+    "ServicePrincipal": {
+      "ClientId": "2af23438-5fad-4b0d-b896-d003bf9ff463",
+      "Secret": "FzL8Q~zfjty3LdCZzExwKbdR5juHc65Jt6blCcP9",
+      "TenantId": "e4df7223-e170-4ae0-93ad-076d478cbe95",
+      "DisplayName": "ProxyDeveloment-f1"
+    }
+  }
+}
