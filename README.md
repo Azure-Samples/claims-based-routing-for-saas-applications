@@ -1,3 +1,27 @@
+---
+page_type: sample
+languages:
+- csharp
+- bash
+- azurecli
+- bicep
+
+products:
+- azure
+- azure-app-service
+- azure-app-service-web
+- azure-key-vault
+- aspnet-core
+- dotnet-core
+- azure-app-configuration
+- azure-service-bus
+- azure-event-grid
+- azure-log-analytics
+- azure-application-insights
+
+name: Claims based routing for SaaS solutions
+description: "Sample shows how to route tenants to different endpoints, based on the tenant id claim from the bearer token. YARP reverse proxy is used to proxy to different backends, Azure App Configuration holds the information about the tenant routing. Changes to App Configuration is dynamically pushed to the subscribing proxies."
+---
 # Reverse Proxy - managing and routing tenants 
 
 Tenant routing rules, claims processing, and authentication protocol translations are often needed for exposing a backend to any number of frontends and clients. A reverse proxy serves to hide some of this complexity for the frontends connecting as well as centralizing the management.  Scenarios are amongst:
