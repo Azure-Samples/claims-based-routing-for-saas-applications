@@ -12,7 +12,7 @@ products:
 - azure-app-service-web
 - azure-key-vault
 - aspnet-core
-- dotnet-core
+- dotnet
 - azure-app-configuration
 - azure-service-bus
 - azure-event-grid
