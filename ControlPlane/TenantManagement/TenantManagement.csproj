@@ -22,7 +22,7 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="Microsoft.Azure.AppConfiguration.AspNetCore" Version="6.0.1" />
     <PackageReference Include="Microsoft.Identity.Web" Version="2.12.4" />
-    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="6.31.0" />
+    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="6.34.0" />
     <PackageReference Include="Microsoft.FeatureManagement.AspNetCore" Version="2.6.1" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
 
